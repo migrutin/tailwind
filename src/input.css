@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.logo {
+    max-width: 200px; 
+    max-height: 100px; 
+  }
+
+  .logo2 { 
+    max-width: 30px; 
+    max-height: 30px;
+    transition: filter 0.3s;
+  }
+
+  .line {
+    max-height: 30px;
+  }
+
+  .hover-ikona:hover {
+    opacity: 0.5; 
+}
+.button-style{ 
+  padding: 10px;
+  width: 130px;
+  margin-left: 27%;
+  margin-bottom: 0.5%;
+}
+
+.border-input{ 
+  border: 1px solid #0f0303;
+  padding: 10px;
+  width: 300px;
+  
+
+}
+
+.text-font{ 
+  font-size: large;
+}
+
+.image-size{
+  height: 500px;
+  width: 700px;
+  overflow: hidden;
+  margin-left: 8%;
+  
+}
+
+.bg-image{ 
+  background-image: url(/img/bg.jpg); 
+  
+}
